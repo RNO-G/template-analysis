@@ -1,0 +1,8 @@
+uproot
+numpy
+astropy
+pandas
+requests
+setuptools
+matplotlib
+tqdm
