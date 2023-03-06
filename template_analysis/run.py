@@ -19,8 +19,8 @@ logger.setLevel(logging.INFO)
 import astropy.time
 import pandas as pd
 from pathlib import Path
-from template_analysis.config import DATA_DIR, PLOT_DIR  
-from template_analysis import example
+from .config import DATA_DIR, PLOT_DIR  
+from . import example
 
 def main():
     parser = argparse.ArgumentParser(description="Template analysis")
