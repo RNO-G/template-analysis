@@ -15,7 +15,7 @@ Clone repository, change to the directory and install. The `-e` option installs 
 
 ```
 git clone git@github.com:RNO-G/template-analysis.git && cd template-analysis
-pip install -r requirements.txt .
+pip install -r requirements.txt -e .
 ```
 # 2. Use of `template_analysis` outside the package
 After installing you can use all the code inside `template_analysis` from anywhere on your machine.
