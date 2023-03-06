@@ -6,11 +6,12 @@
 - `setup.py` is needed to install the current directory as a package. Edit and replace `template_analysis` with your package name, version number and contact details
 
 
-## Suggested directories in package
+## Suggested directories in package (`template_analysis`)
 The pre-existing directory strucure is there to help and suggest some sort of structure in your analysis. Feel free to extend and modify as needed.
 
 - `data`: containing tabulated results from scripts.
 - `plots`: containing final result plots.
+- `config.py`: pointing to these directories and providing path variables that can be used inside scripts. May simplify repointing to different local directories if desired.
 
 Edit `plots/.gitignore` and `data/.gitignore` or add a general `.gitignore` to not push huge files to github
 
