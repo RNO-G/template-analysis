@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import os
 
 # some common directory paths

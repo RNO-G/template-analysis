@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 from setuptools import setup
 
 setup(name='template_analysis', # rename to the name of your analysis
